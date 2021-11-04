@@ -1,0 +1,4 @@
+IDEAS
+
+- Upload icons from the mini-svg icon github library, to public/static/icons/.
+
