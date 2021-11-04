@@ -8,7 +8,7 @@ sections:
   label: Content
 
 - type: directory
-  path: content/posts
+  path: /posts
   label: Blog Posts
   create: documents
   match: "**/*"
@@ -17,11 +17,11 @@ sections:
   - blog-post
 
 - type: document
-  path: content/data/authors.yaml
+  path: /data/authors.yaml
   label: Author List
 
 - type: document
-  path: content/data/info.json
+  path: /data/info.json
   label: Info Page
 
 - type: heading
