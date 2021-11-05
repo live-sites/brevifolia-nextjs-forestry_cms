@@ -6,31 +6,25 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-
 - type: directory
-  path: /posts
+  path: posts
   label: Blog Posts
   create: documents
   match: "**/*"
   new_doc_ext: md
   templates:
   - blog-post
-
 - type: document
-  path: /data/authors.yaml
+  path: data/authors.yaml
   label: Author List
-
 - type: document
-  path: /data/info.json
+  path: data/info.json
   label: Info Page
-
 - type: heading
   label: General Config
-
 - type: document
   path: config.json
   label: Site Info
-
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
